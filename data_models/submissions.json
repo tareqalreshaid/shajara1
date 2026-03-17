@@ -1,0 +1,46 @@
+{
+    "title": "submissions",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID who submitted"
+        },
+        "challenge_id": {
+            "type": "integer",
+            "description": "Challenge ID being submitted for"
+        },
+        "image_url": {
+            "type": "string",
+            "description": "URL of uploaded proof image"
+        },
+        "status": {
+            "type": "string",
+            "description": "Submission status: pending, approved, rejected"
+        },
+        "submitted_at": {
+            "type": "string",
+            "description": "Timestamp when submitted"
+        },
+        "reviewed_at": {
+            "type": "string",
+            "description": "Timestamp when reviewed by admin"
+        },
+        "admin_note": {
+            "type": "string",
+            "description": "Optional note from admin on rejection"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "challenge_id",
+        "image_url",
+        "status",
+        "submitted_at"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "title": "community_activities",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "title": {
+            "type": "string",
+            "description": "Activity title"
+        },
+        "description": {
+            "type": "string",
+            "description": "Activity description"
+        },
+        "suggested_points": {
+            "type": "integer",
+            "description": "Points suggested by user"
+        },
+        "approved_points": {
+            "type": "integer",
+            "description": "Points approved by admin"
+        },
+        "category": {
+            "type": "string",
+            "description": "Activity category"
+        },
+        "image_url": {
+            "type": "string",
+            "description": "Activity image URL"
+        },
+        "status": {
+            "type": "string",
+            "description": "Status: pending, approved, rejected"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        },
+        "reviewed_at": {
+            "type": "string",
+            "description": "Review timestamp"
+        },
+        "admin_note": {
+            "type": "string",
+            "description": "Admin notes"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "title",
+        "description",
+        "suggested_points",
+        "category",
+        "status",
+        "created_at"
+    ]
+}

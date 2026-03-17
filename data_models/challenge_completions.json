@@ -1,0 +1,28 @@
+{
+    "title": "challenge_completions",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID who completed the challenge"
+        },
+        "challenge_id": {
+            "type": "integer",
+            "description": "ID of the completed challenge"
+        },
+        "completed_at": {
+            "type": "string",
+            "description": "Completion timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "challenge_id",
+        "completed_at"
+    ]
+}

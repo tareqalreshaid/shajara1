@@ -1,0 +1,33 @@
+{
+    "title": "comments",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "post_id": {
+            "type": "integer",
+            "description": "ID of the post this comment belongs to"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID who created the comment"
+        },
+        "content": {
+            "type": "string",
+            "description": "Comment content text"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Comment creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "post_id",
+        "user_id",
+        "content",
+        "created_at"
+    ]
+}

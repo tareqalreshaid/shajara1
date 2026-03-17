@@ -1,0 +1,38 @@
+{
+    "title": "challenges",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "title": {
+            "type": "string",
+            "description": "Challenge title"
+        },
+        "description": {
+            "type": "string",
+            "description": "Challenge description"
+        },
+        "points": {
+            "type": "integer",
+            "description": "Points reward for completing the challenge"
+        },
+        "challenge_type": {
+            "type": "string",
+            "description": "Type of challenge: daily, normal, or special"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Challenge creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "title",
+        "description",
+        "points",
+        "challenge_type",
+        "created_at"
+    ]
+}

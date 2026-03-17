@@ -1,0 +1,68 @@
+{
+    "title": "user_profiles",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "name": {
+            "type": "string",
+            "description": "Display name"
+        },
+        "profile_picture": {
+            "type": "string",
+            "description": "Profile picture URL"
+        },
+        "total_points": {
+            "type": "integer",
+            "description": "Total eco points"
+        },
+        "challenges_completed": {
+            "type": "integer",
+            "description": "Number of challenges completed"
+        },
+        "badges": {
+            "type": "string",
+            "description": "JSON string of badges"
+        },
+        "role": {
+            "type": "string",
+            "description": "User role"
+        },
+        "theme": {
+            "type": "string",
+            "description": "Selected eco theme"
+        },
+        "avatar_animal": {
+            "type": "string",
+            "description": "Selected animal avatar type: fox, owl, turtle, deer, panda, bee"
+        },
+        "avatar_color": {
+            "type": "string",
+            "description": "Selected avatar color variant"
+        },
+        "avatar_accessory": {
+            "type": "string",
+            "description": "Selected avatar accessory: leaf-crown, flower-crown, explorer-hat, none"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        },
+        "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Update timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id"
+    ]
+}

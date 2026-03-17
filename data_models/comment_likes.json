@@ -1,0 +1,28 @@
+{
+    "title": "comment_likes",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "comment_id": {
+            "type": "integer",
+            "description": "Comment ID being liked"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID who liked"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "comment_id",
+        "user_id",
+        "created_at"
+    ]
+}

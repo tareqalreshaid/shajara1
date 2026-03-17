@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Use a Reusable Water Bottle",
+        "description": "Bring your own reusable water bottle instead of buying plastic bottles today",
+        "points": 15,
+        "challenge_type": "daily",
+        "created_at": "2026-02-11 08:00:00"
+    },
+    {
+        "title": "Take Public Transport",
+        "description": "Use public transportation, bike, or walk instead of driving alone",
+        "points": 20,
+        "challenge_type": "daily",
+        "created_at": "2026-02-11 08:00:00"
+    },
+    {
+        "title": "Meatless Monday",
+        "description": "Go vegetarian or vegan for the entire day to reduce your carbon footprint",
+        "points": 18,
+        "challenge_type": "daily",
+        "created_at": "2026-02-11 08:00:00"
+    },
+    {
+        "title": "Recycle Properly",
+        "description": "Sort and recycle all your waste correctly today",
+        "points": 12,
+        "challenge_type": "daily",
+        "created_at": "2026-02-11 08:00:00"
+    },
+    {
+        "title": "Plant a Tree",
+        "description": "Plant a tree in your community or donate to a tree-planting organization",
+        "points": 35,
+        "challenge_type": "normal",
+        "created_at": "2026-02-11 08:00:00"
+    },
+    {
+        "title": "Start Composting",
+        "description": "Set up a composting system for your food waste",
+        "points": 30,
+        "challenge_type": "normal",
+        "created_at": "2026-02-11 08:00:00"
+    },
+    {
+        "title": "Switch to LED Bulbs",
+        "description": "Replace all traditional bulbs in your home with energy-efficient LED bulbs",
+        "points": 25,
+        "challenge_type": "normal",
+        "created_at": "2026-02-11 08:00:00"
+    },
+    {
+        "title": "Zero Waste Week",
+        "description": "Produce zero waste for an entire week",
+        "points": 40,
+        "challenge_type": "normal",
+        "created_at": "2026-02-11 08:00:00"
+    },
+    {
+        "title": "Beach Cleanup Event",
+        "description": "Organize or participate in a beach or park cleanup event with at least 10 people",
+        "points": 60,
+        "challenge_type": "special",
+        "created_at": "2026-02-11 08:00:00"
+    },
+    {
+        "title": "Install Solar Panels",
+        "description": "Install solar panels on your home or business",
+        "points": 100,
+        "challenge_type": "special",
+        "created_at": "2026-02-11 08:00:00"
+    },
+    {
+        "title": "Go Car-Free for a Month",
+        "description": "Commit to not using a personal car for 30 days",
+        "points": 80,
+        "challenge_type": "special",
+        "created_at": "2026-02-11 08:00:00"
+    },
+    {
+        "title": "Community Garden Project",
+        "description": "Start or join a community garden project in your neighborhood",
+        "points": 70,
+        "challenge_type": "special",
+        "created_at": "2026-02-11 08:00:00"
+    }
+]

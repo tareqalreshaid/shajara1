@@ -1,0 +1,38 @@
+{
+    "title": "comment_replies",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "comment_id": {
+            "type": "integer",
+            "description": "Parent comment ID"
+        },
+        "post_id": {
+            "type": "integer",
+            "description": "Post ID"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "content": {
+            "type": "string",
+            "description": "Reply text content"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "comment_id",
+        "post_id",
+        "user_id",
+        "content",
+        "created_at"
+    ]
+}

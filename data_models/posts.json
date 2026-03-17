@@ -1,0 +1,48 @@
+{
+    "title": "posts",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "content": {
+            "type": "string",
+            "description": "Post text content"
+        },
+        "image_url": {
+            "type": "string",
+            "description": "Legacy single image URL"
+        },
+        "image_urls": {
+            "type": "string",
+            "description": "JSON array of image URLs for multiple images"
+        },
+        "location": {
+            "type": "string",
+            "description": "Optional location tag"
+        },
+        "category": {
+            "type": "string",
+            "description": "Sustainability category"
+        },
+        "like_count": {
+            "type": "integer",
+            "description": "Number of likes, default 0"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "content",
+        "created_at"
+    ]
+}
